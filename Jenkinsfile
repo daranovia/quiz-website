@@ -33,7 +33,7 @@ node {
                 --exclude=.env \
                 --exclude=storage \
                 --exclude=bootstrap/cache \
-                --exclude=.git
+                --exclude=.git \
                 --no-perms --no-owner --no-group
                 '''
             }
