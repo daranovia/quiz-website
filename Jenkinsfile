@@ -29,7 +29,7 @@ node {
                 ssh-keyscan -H $PROD_HOST >> ~/.ssh/known_hosts
 
                 rsync -rav --delete ./ \
-                $PROD_USER@$PROD_HOST:/home/ubuntu/prod.kelasdevops.xyz/ \
+                $PROD_USER@$PROD_HOST:/home/$PROD_USER/prod.kelasdevops.xyz/ \
                 --exclude=.env \
                 --exclude=storage \
                 --exclude=.git
