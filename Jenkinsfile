@@ -32,7 +32,8 @@ node {
                 $PROD_USER@$PROD_HOST:/home/$PROD_USER/prod.kelasdevops.xyz/ \
                 --exclude=.env \
                 --exclude=storage \
-                --exclude=.git
+                --exclude=.git \
+                --no-perms --no-owner --no-group
                 '''
             }
         }
