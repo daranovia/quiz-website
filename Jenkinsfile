@@ -42,7 +42,7 @@
 
 node {
 
-    env.PROD_HOST = "10.10.180.249"
+    env.PROD_HOST = "10.10.5.75"
     env.PROD_USER = "dara"
 
     checkout scm
